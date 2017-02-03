@@ -37,9 +37,11 @@ var anakinSkywalker =  {
 }
 
 //12. Add 'Jar Jar' to his children using dot notation
-
+anakinSkywalker.children.push('Jar Jar')
 //13. Loop through the object and remove any property that starts with former
-
+for(var key in anakinSkywalker){
+  
+}
 
 
 //14. Create a function called finder that takes in an array and a string and loops through the array
